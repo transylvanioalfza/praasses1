@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">PraAssess1</string>
+    <string name="Segitiga">segitiga</string>
+    <string name="persegipanjang">Persegi Panjang</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Hitung">Hitung</string>
+    <string name="Share">Share</string>
+    <string name="Alas">Alas</string>
+    <string name="Tinggi">Tinggi</string>
+    <string name="Panjang">Panjang</string>
+    <string name="Lebar">Lebar</string>
+    <string name="nama">M TRANSYLVANIO ALFAREZHA</string>
+    <string name="kelas">6706184118</string>
+    <string name="nim">6706184118</string>
+    <string name="luas">Luas =</string>
+    <string name="keliling">Keliling =</string>
+    <string name="Hitung">Hitung</string>
+    <string name="luas2">Luas =</string>
+    <string name="keliling2">Keliling =</string>
+    <string name="share">Share</string>
+    <string name="persegiPanjang">Persegi Panjang</string>
+    <string name="segitiga">Segitiga</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/navigation"
+            app:startDestination="@id/about" tools:ignore="UnusedNavigation">
+
+    <fragment android:id="@+id/about" android:name="com.jurnal.praassess1.About" android:label="fragment_about"
+              tools:layout="@layout/fragment_about">
+        <action android:id="@+id/action_about_to_menu3" app:destination="@+id/menu" app:popUpTo="@+id/menu"/>
+    </fragment>
+    <fragment android:id="@+id/persegipanjang" android:name="com.jurnal.praassess1.Persegipanjang"
+              android:label="fragment_persegipanjang" tools:layout="@layout/fragment_persegipanjang"/>
+    <fragment android:id="@+id/segitiga" android:name="com.jurnal.praassess1.Segitiga" android:label="fragment_segitiga"
+              tools:layout="@layout/fragment_segitiga"/>
+    <fragment android:id="@+id/menu" android:name="com.jurnal.praassess1.menu" android:label="fragment_menu"
+              tools:layout="@layout/fragment_menu">
+        <action android:id="@+id/action_menu_to_persegipanjang" app:destination="@+id/persegipanjang"
+                app:popUpTo="@+id/persegipanjang"/>
+        <action android:id="@+id/action_menu_to_segitiga" app:destination="@id/segitiga" app:popUpTo="@+id/segitiga"/>
+    </fragment>
+</navigation>
